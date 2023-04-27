@@ -1,0 +1,34 @@
+@media screen and (max-width: 645px) {
+  h2 {
+    font-size: x-large;
+  }
+  h4 {
+    font-size: large;
+  }
+  .lead {
+    font-size: medium;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 1024px) and (min-width: 645px) {
+  h2 {
+    font-size: x-large;
+  }
+  h4 {
+    font-size: large;
+  }
+  .lead {
+    font-size: medium;
+  }
+}
+/* Desktop */
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  h2, h4 {
+    font-size: large;
+  }
+  .lead {
+    font-size: small;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

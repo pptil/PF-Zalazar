@@ -1,67 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,200;1,300&display=swap');
-
-/* Setea en rosa el fondo y blanco el texto */
-.pink{
-    background-color: rgba(175, 70, 224, 0.76);
-    color: rgb(231, 228, 231);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,200;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+@media screen and (max-width: 645px) {
+  h2 {
+    font-size: x-large;
+  }
+  h4 {
+    font-size: large;
+  }
+  .lead {
+    font-size: medium;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 1024px) and (min-width: 645px) {
+  h2 {
+    font-size: x-large;
+  }
+  h4 {
+    font-size: large;
+  }
+  .lead {
+    font-size: medium;
+  }
+}
+/* Desktop */
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  h2, h4 {
+    font-size: large;
+  }
+  .lead {
+    font-size: small;
+  }
+}
 body {
-	font-family: 'Poppins', sans-serif;
-	background-color: rgb(238, 233, 240);
-	overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(250, 199, 255, 0.7960784314), rgba(197, 248, 255, 0.7450980392));
+  overflow-x: hidden;
 }
 
 h2 {
-	color: rgb(226, 42, 217)
+  color: rgb(226, 42, 217);
 }
 
-li a i{
-    color: rgb(231, 228, 231);
+li a i {
+  color: rgb(231, 228, 231);
 }
 
-/* Media Queries */
-/* Mobile */
-@media screen and (max-width: 645px) {
-    h2{
-        font-size: x-large;
-    }
-
-    h4{
-        font-size: large;
-    }
-
-    .lead{
-        font-size: medium; 
-    }
+.banner img {
+  margin-top: 55px;
 }
 
-/* Tablet */
-@media screen and (max-width: 1024px) and (min-width: 645px) {
-
-    h2{
-        font-size: x-large;
-    }
-
-    h4{
-        font-size: large;
-    }
-
-    .lead{
-        font-size: medium; 
-    }
-
+.logo {
+  transition: transform 0.2s ease-out;
+}
+.logo:hover {
+  transform: scale(1.2);
 }
 
-/* Desktop */
-@media screen and (max-width: 1366px) and (min-width: 1024px) {
-
-    h2, h4{
-        font-size: large;
-    }
-
-    .lead{
-        font-size: medium; 
-    }
-
+.descripcion {
+  font-size: small;
+  margin-top: 10px;
 }
+
+.talent-card a {
+  margin: 10px;
+}
+.talent-card a i {
+  font-size: x-large;
+}
+
+.pink {
+  background-color: rgba(175, 70, 224, 0.76);
+  color: rgb(231, 228, 231);
+}
+
+/*# sourceMappingURL=style.css.map */
