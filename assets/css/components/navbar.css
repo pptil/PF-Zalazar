@@ -4,4 +4,9 @@
   width: 100%;
 }
 
+.container-fluid a img {
+  width: 35px;
+  height: 35px;
+}
+
 /*# sourceMappingURL=navbar.css.map */
